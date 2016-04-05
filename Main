@@ -1,0 +1,18 @@
+#include "stdafx.h"
+#include "Matriz.h"
+#include <string>
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{
+	Matriz Mat;
+	string mat[N][N];
+	int fila=2,columna=2;
+	Mat.cargar(mat,fila,columna);
+	Mat.mostrar(mat,fila,columna);
+	Mat.repetidos(mat,fila,columna);
+	getch();
+}
+
